@@ -1,1 +1,13 @@
-Hello World
+git init
+git config user.name "Your name"
+git config user.email "Your email"
+git add filename...
+git commit -m "Comment"
+git remote add ชื่อ repository หรือ ชื่อ folder git-url
+git push -u ชื่อ repository หรือ ชื่อ folder master
+git push
+
+ถ้าจะอัปเดท (หลังจากทำข้างบนแล้ว)
+git add filename...
+git commit -m "Comment"
+git push
